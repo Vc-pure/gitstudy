@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <pluginGroups>
+    </pluginGroups>
+    <localRepository>D:\Maven\repository</localRepository>
+    <proxies>
+    </proxies>
+
+    <servers>
+    </servers>
+
+    <mirrors>
+
+
+        <mirror>
+
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <url>https://repo1.maven.org/maven2/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+
+
+
+
+
+
+
+
+
+
+        <!--
+
+    <mirror>
+     <id>public-adcloud</id>
+     <name>PUBLIC-ADCLOUD</name>
+     <mirrorOf>*</mirrorOf>
+     <url>http://nexus.zj.chinamobile.com:8081/nexus/content/groups/public/</url>
+  </mirror>
+
+            <mirror>
+            <id>alimaven-central</id>
+            <mirrorOf>central</mirrorOf>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+        </mirror>
+
+
+       <mirror>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <url>https://repo1.maven.org/maven2/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+          <mirror>
+            <id>jboss-public-repository-group</id>
+            <mirrorOf>central</mirrorOf>
+            <name>JBoss Public Repository Group</name>
+            <url>http://repository.jboss.org/nexus/content/groups/public</url>
+        </mirror>
+
+
+         <mirror>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <url>https://repo1.maven.org/maven2/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+        -->
+
+
+    </mirrors>
+    <profiles>
+
+    </profiles>
+    <activeProfiles>
+    </activeProfiles>
+
+
+
+</settings>
